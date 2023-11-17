@@ -5,8 +5,6 @@
     border: 1px solid black;
 }
 
-
-
 /*opzioni*/
 header{
     background-color: orange;
@@ -91,17 +89,17 @@ nav{
 }
 
 .faccia-1{
-    width: 900px;
+    width: 700px;
     display: flex;
     gap: 70px;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 #immagine-1{
     background-color: lime;
     width: 250px;
-    height: 200px;
+    height: 250px;
 }
 
 #invito-1{
@@ -109,7 +107,6 @@ nav{
     width: 200px;
     height: 225px;
 }
-
 
 
 /*secondo faccia */
@@ -122,24 +119,25 @@ nav{
 }
 
 .faccia-2{
-    width: 900px;
+    width: 700px;
     display: flex;
     gap: 70px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 #immagine-2{
     background-color: lime;
     width: 250px;
-    height: 200px;
+    height: 250px;
 }
 
 #trovarsi-2{
     background-color: blue;
     width: 200px;
     height: 225px;
-} 
+}
 
 
 
@@ -153,10 +151,10 @@ nav{
 }
 
 .faccia-3{
-    width: 900px;
+    width: 700px;
     display: flex;
     gap: 70px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 

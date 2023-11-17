@@ -6,10 +6,6 @@
 }
 
 /*opzioni*/
-.container{
-    width: 100%;
-}
-
 header{
     background-color: orange;
     height: 70px;
@@ -18,7 +14,7 @@ header{
 }
 
 .opzioni{
-    background-color: grey;
+    background-color: coral;
     display: flex;
     align-items: center;
     gap: 200px;
@@ -46,47 +42,63 @@ header{
 
 
 /*il tuo posto per parlare*/
-
 nav{
-    background-color: coral;
+    background-color: blue;
     width: 100%;
     height: 250px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+#informazioni{
+    background-color: aqua;
+    width: 500px;
+    height: 150px;
+    
+}
+
+.bottoni{
+    display: flex;
+    justify-content: space-between;
+}
+
+#pulsante-1{
+    background-color: aquamarine;
+    height: 50px;
+    width: 50%;
 
 }
 
+#pulsante-2{
+    background-color: cadetblue;
+    width: 50%;
+    height: 50px;
+}
 
 
-
-
-
-
-
-
-
-/*terza faccia
+/*prima faccia */
 main{
-    background-color: coral;
-    width: 100%;
-    height: 350px;
+    background-color: green;
+    height: 300px;
     display: flex;
     justify-content: center;
 }
 
-.faccia-3{
+.faccia-1{
     display: flex;
+    margin-top: 40px;
+    gap: 70px;
 }
 
 #immagine{
-    background-color: chocolate;
-    width: 200px;
+    background-color: lime;
+    width: 250px;
     height: 150px;
-
 }
 
-#informazioni{
-    background-color: brown;
+#invito{
+    background-color: greenyellow;
     width: 200px;
     height: 225px;
-} */
+} 

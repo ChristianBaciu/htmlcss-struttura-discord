@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+
+/*prima faccia*/
+.container{
+    background-color: orange;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.opzioni{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+#text-right{
+    justify-content: flex-end;
+    background-color: red;
+    width: 100px;
+    height: 40px;
+}
+
+.text-center{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(255, 217, 0);
+}
+
+#text-left{
+    justify-content: flex-start;
+    background-color: darkred;
+    width: 100px;
+    height: 40px;
+}
+
+main{
+    background-color: blue;
+
+}

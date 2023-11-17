@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid green;
+    border: 1px solid black;
 }
+
+
 
 /*opzioni*/
 header{
@@ -39,6 +41,7 @@ header{
     width: 100px;
     height: 40px;
 }
+
 
 
 /*il tuo posto per parlare*/
@@ -77,28 +80,94 @@ nav{
 }
 
 
+
 /*prima faccia */
-main{
+.primo{
     background-color: green;
     height: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .faccia-1{
+    width: 900px;
     display: flex;
-    margin-top: 40px;
     gap: 70px;
+    justify-content: space-around;
+
 }
 
-#immagine{
+#immagine-1{
     background-color: lime;
     width: 250px;
-    height: 150px;
+    height: 200px;
 }
 
-#invito{
-    background-color: greenyellow;
+#invito-1{
+    background-color: blue;
+    width: 200px;
+    height: 225px;
+}
+
+
+
+/*secondo faccia */
+.secondo{
+    background-color: green;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faccia-2{
+    width: 900px;
+    display: flex;
+    gap: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#immagine-2{
+    background-color: lime;
+    width: 250px;
+    height: 200px;
+}
+
+#trovarsi-2{
+    background-color: blue;
     width: 200px;
     height: 225px;
 } 
+
+
+
+/*terza faccia */
+.terzo{
+    background-color: green;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faccia-3{
+    width: 900px;
+    display: flex;
+    gap: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#immagine-3{
+    background-color: lime;
+    width: 250px;
+    height: 250px;
+}
+
+#fandom-3{
+    background-color: blue;
+    width: 200px;
+    height: 225px;
+}

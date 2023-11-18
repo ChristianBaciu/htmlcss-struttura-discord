@@ -31,6 +31,9 @@ header{
     width: 400px;
     height: 40px;
     background-color: rgb(255, 217, 0);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 #text-left{
@@ -56,19 +59,20 @@ nav{
     background-color: aqua;
     width: 500px;
     height: 150px;
-    
+    text-align: center;
 }
 
 .bottoni{
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 #pulsante-1{
     background-color: aquamarine;
     height: 50px;
     width: 50%;
-
+    text-align: center;
 }
 
 #pulsante-2{
@@ -168,4 +172,54 @@ nav{
     background-color: blue;
     width: 200px;
     height: 225px;
+}
+
+
+/*quarta faccia*/
+.quarta{
+    background-color: blue;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.faccia-4{
+    width: 800px;
+}
+
+#contatti-4{
+    background-color: lightblue;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+#immagine-4{
+    background-color: cadetblue;
+    width: 100%;
+    height: 300px;
+}
+
+#scarica{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    align-items: center;
+}
+
+#pulsante-4{
+    background-color: green;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+}
+
+
+
+/*parte finale*/
+
+footer{
+    background-color: rgb(26, 26, 26);
+    height: 300px;
 }

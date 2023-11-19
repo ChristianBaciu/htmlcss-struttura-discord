@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 /*opzioni*/
@@ -218,8 +217,35 @@ nav{
 
 
 /*parte finale*/
+section{
+    background-color: rgb(26, 26, 26);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.finale{
+    background-color: orange;
+    height: 150px;
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
 
 footer{
     background-color: rgb(26, 26, 26);
-    height: 300px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+.fila-finale{
+    background-color: darkred;
+    display: flex;
+    width: 700px;
+    height: 40px;
+    justify-content: space-between;
+    align-self: center;
+
 }
